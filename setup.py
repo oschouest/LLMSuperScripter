@@ -16,7 +16,7 @@ setup(
     description="LLM-powered system administration toolkit with built-in safety features",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/oschouest/Test",
+    url="https://github.com/oschouest/LLMSuperScripter",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 3 - Alpha",
