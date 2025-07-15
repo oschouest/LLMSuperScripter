@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-LLM Super User Assistant - Core Engine
+LLMSuperScripter - Core Engine
 """
 
 import os
@@ -13,10 +13,10 @@ from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 import logging
 
-class SuperUserAssistant:
+class LLMSuperScripter:
     def __init__(self):
-        self.backup_dir = Path.home() / ".superuser-backups"
-        self.log_file = Path.home() / ".superuser.log"
+        self.backup_dir = Path.home() / ".superscripter-backups"
+        self.log_file = Path.home() / ".superscripter.log"
         self.setup_logging()
         self.ensure_backup_dir()
         
@@ -216,16 +216,16 @@ class SuperUserAssistant:
         return sorted(snapshots, key=lambda x: x['timestamp'], reverse=True)
 
 def main():
-    assistant = SuperUserAssistant()
+    assistant = LLMSuperScripter()
     
-    print("🤖 LLM Super User Assistant v1.0")
+    print("🤖 LLMSuperScripter v1.0")
     print("=" * 50)
     
     if len(sys.argv) < 2:
         print("Usage examples:")
-        print("  python superuser.py --command 'echo Hello World' --operation 'test'")
-        print("  python superuser.py --snapshots")
-        print("  python superuser.py --rollback <snapshot_id>")
+        print("  python superscripter.py --command 'echo Hello World' --operation 'test'")
+        print("  python superscripter.py --snapshots")
+        print("  python superscripter.py --rollback <snapshot_id>")
         return
         
     if "--snapshots" in sys.argv:

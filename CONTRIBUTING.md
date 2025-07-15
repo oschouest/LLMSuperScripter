@@ -1,6 +1,6 @@
-# Contributing to LLM Super User Kit
+# Contributing to LLMSuperScripter
 
-Thank you for your interest in contributing to the LLM Super User Kit! This project aims to make system administration safer and more accessible through AI assistance.
+Thank you for your interest in contributing to LLMSuperScripter! This project aims to make system administration safer and more accessible through AI assistance.
 
 ## 🎯 Project Goals
 

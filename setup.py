@@ -9,7 +9,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="llm-superuser-kit",
+    name="llmsuperscripter",
     version="0.1.0",
     author="Oscar Chouest",
     author_email="your.email@example.com",
@@ -55,7 +55,7 @@ setup(
     },
     entry_points={
         "console_scripts": [
-            "superuser-assistant=core.superuser_assistant:main",
+            "superscripter=core.superscripter:main",
         ],
     },
 )

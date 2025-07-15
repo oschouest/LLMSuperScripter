@@ -1,4 +1,4 @@
-# LLM Super User Assistant 🤖⚡
+# LLMSuperScripter 🤖⚡
 
 > **The Ultimate LLM-Powered System Administration Toolkit**
 
@@ -54,7 +54,7 @@ Transform system administration from manual, error-prone processes into **safe, 
 ## 🏗️ Architecture
 
 ```
-LLM-SuperUser-Kit/
+LLMSuperScripter/
 ├── core/                    # Core LLM integration and safety systems
 │   ├── llm_interface.py     # LLM communication and prompt engineering
 │   ├── safety_engine.py    # Validation and rollback systems
@@ -84,16 +84,16 @@ LLM-SuperUser-Kit/
 
 ```bash
 # Parse and execute a tutorial safely
-./superuser-assistant --tutorial "https://example.com/registry-tutorial" --backup
+./superscripter --tutorial "https://example.com/registry-tutorial" --backup
 
 # Natural language system administration
-./superuser-assistant --query "Set up development environment for Python and Node.js"
+./superscripter --query "Set up development environment for Python and Node.js"
 
 # Safe registry modification
-./superuser-assistant --registry --backup --query "Enable developer mode in Windows"
+./superscripter --registry --backup --query "Enable developer mode in Windows"
 
 # Network operations
-./superuser-assistant --network --discover --deploy-ssh
+./superscripter --network --discover --deploy-ssh
 ```
 
 ## 🎯 Target Users
